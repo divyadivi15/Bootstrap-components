@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container my-5">
+
+        <!-- collapse -->
+        <p>
+            <h3>Download links are below.</h3>
+            <p>Choose the command links based on your region.</p>
+
+            <a href="#collapseExample" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">
+                Server #1</a>
+            <button class="btn btn-primary" data-target="#collapseExample" data-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">
+                Server #2</button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad id recusandae delectus doloribus temporibus numquam. Autem ipsum esse necessitatibus error, ex aliquid odio. Tempore recusandae assumenda aspernatur eaque velit neque?</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+        <!-- accordion -->
+
+        <div class=" container accordian" id="accordion">
+            <h4>Frequently asked questions</h4>
+            <div class="card">
+                <div class="card-header">
+                    <a href="#questionOne" data-toggle="collapse" class="card-link">
+                        <p>Is this course free?</p>
+                    </a>
+                </div>
+                <div id="questionOne" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Yes, It is free.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- questwo -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#questionTwo" data-toggle="collapse" class="card-link">
+                        <p>Do you have any app for this?</p>
+                    </a>
+                </div>
+                <div id="questionTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, labore.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- questhree -->
+
+            <div class="card">
+                <div class="card-header">
+                    <a href="#questionThree" data-toggle="collapse" class="card-link">
+                        <p>How can I contact you</p>
+                    </a>
+                </div>
+                <div id="questionThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, natus quaerat nisi nesciunt corrupti repellendus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    
+
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
